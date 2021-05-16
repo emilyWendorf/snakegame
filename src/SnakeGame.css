@@ -1,0 +1,38 @@
+#GameBoard {
+	position: relative;
+	margin: auto;
+	border: 10px solid hotpink;
+	border-radius: 25px;
+	background-color: rgba(255,220,245,1)
+}
+
+#GameBoard .Block {
+	position: absolute;
+}
+
+#GameBoard #GameOver {
+	text-align: center;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+}
+
+#GameBoard #Score {
+	position: relative;
+	top: 105%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#GameBoard #GameOverText {
+	color: darkslateblue;
+	font-weight: bold;
+	font-size:100%
+}
+
+#GameBoard #PressSpaceText {
+	color: hotpink;
+	font-weight: bold;
+}
+
